@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday! 🎂</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+<audio id="bgMusic" loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+</audio>
+
+    <div class="container">
+        <div class="hero">
+            <div class="balloon-left">🎈</div>
+            <h1>Happy Birthday, <br /><span id="name">Christy</span>!</h1>
+            <div class="balloon-right">🎈</div>
+        </div>
+
+        <p class="subtitle">✨ Today is all about celebrating YOU ✨</p>
+
+        <div class="gallery">
+            
+            <div class="photo-grid">
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=400&h=400&fit=crop" alt="Memory 1" />
+                </div>
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=400&fit=crop" alt="Memory 2" />
+                </div>
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&h=400&fit=crop" alt="Memory 3" />
+                </div>
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&h=400&fit=crop" alt="Memory 4" />
+                </div>
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=400&h=400&fit=crop" alt="Memory 5" />
+                </div>
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=400&fit=crop" alt="Memory 6" />
+                </div>
+            </div>
+        </div>
+
+        <div class="message-card">
+            <h2>💌 A Little Note For You</h2>
+            <div class="message-content">
+                <p>Dear Christy,</p>
+                <p>On this special day, I just want to remind you how incredibly amazing you are. Your smile lights up every room you walk into, and your kindness touches everyone around you.</p>
+                <p>Thank you for being such a wonderful friend. Every memory we've made together is a treasure I'll always cherish.</p>
+                <p>May this year bring you everything you've been dreaming of and more. You deserve all the happiness in the world!</p>
+                <p class="signature">With all my love,<br /><span>Your Bestie Singiten</span> 🥰</p>
+            </div>
+        </div>
+
+        <div class="music-control">
+            <button id="musicBtn" class="music-btn">🔇 Play Music</button>
+            <p class="music-hint">Tap to add some birthday vibes!</p>
+        </div>
+
+        <button id="surpriseBtn" class="surprise-btn">🎁 Tap for a Surprise!</button>
+        <div id="surpriseMessage" class="surprise-message hidden">
+            🎉 YOU'RE THE BEST! 🎉
+            <br />
+            <span class="surprise-sub">Wishing you endless joy and laughter!</span>
+        </div>
+
+        <div class="footer">
+            <p>Made with ❤️ just for you</p>
+            <div class="footer-emojis">🎂 🎈 🎁 🥳</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"></script>
+    <script src="script.js"></script>
+</body>
+</html>
